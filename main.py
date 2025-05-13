@@ -86,10 +86,11 @@ class DailyFortunePlugin(PluginBase):
             return True
 
         wxid = message["FromWxid"]
+        userexid = message["SenderWxid"]
         # 从 redis 获取运势数据
         ## 获取今天的年月日
         today = datetime.datetime.now().strftime("%Y-%m-%d")
-        fortune_data = r.get(f"fortunelucky:{wxid}:{today}")
+        fortune_data = r.get(f"fortunelucky:{userexid}:{today}")
         if fortune_data:
             fortune_data = fortune_data.decode("utf-8")
         else:
@@ -97,7 +98,7 @@ class DailyFortunePlugin(PluginBase):
             luck_level = random.randint(0, 7)
             luck_number = random.randint(0, 100)
             fortune_data = f"运势：{self.get_random_luck_message()[7 - luck_level]}\n星级：{self.get_stars(luck_level)}\n幸运数字：{luck_number}\n幸运颜色：{self.get_random_luck_color()}"
-            r.set(f"fortunelucky:{wxid}:{today}", fortune_data, ex=86400)
+            r.set(f"fortunelucky:{userexid}:{today}", fortune_data, ex=86400)
 
         hitokoto = self.get_hitokoto()
         if hitokoto:
