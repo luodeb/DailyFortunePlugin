@@ -1,0 +1,843 @@
+[basic]
+# 是否启用插件
+enable = true
+command = ["今日运势", "每日运势"]
+
+
+[luck]
+[[luck.messages]]
+messages = [
+    "如瑞雪初霁，和煦的阳光洒满人间，一切都被温暖的氛围笼罩着。",
+    "似乎宇宙的星辰都为你排列，每次尝试都如愿以偿，好运与你如影随形。",
+    "如同扬帆起航，风势水势都助你前行",
+    "虽然有些磕磕碰碰，但最终还是能够过关斩将，抵达目的地。",
+    "每一步都如履薄冰，生怕打破现有的平衡，谨慎是你前行的座右铭。",
+    "生活似乎变得平淡无奇，如同每日重复的打酱油",
+    "似乎所有的不幸都聚集于此，每次努力都碰到阻碍，期待转运。",
+    "心头笼罩着乌云，期待那一道曙光的出现来驱散阴霾。",
+]
+
+[[luck.messages]]
+messages = ["牛牛牛", "好运连连", "如鱼得水", "尚可忍受", "跌宕起伏", "波折不断", "狼狈不堪", "噩运缠身"]
+
+[[luck.messages]]
+messages = ["春风得意", "福星高照", "顺其自然", "平淡无奇", "风雨兼程", "日子拖沓", "屋漏偏逢连夜雨", "祸不单行"]
+
+[[luck.messages]]
+messages = ["吉星拱照", "一帆风顺", "水到渠成", "平平无奇", "浮沉不定", "碌碌无为", "家常便饭", "乌鸦落在猪背上"]
+
+[[luck.messages]]
+messages = ["鸿运当头", "亨通无阻", "柳暗花明", "不痛不痒", "跌宕山谷", "平淡如水", "麻烦缠身", "破镜难圆"]
+
+[[luck.messages]]
+messages = ["风生水起", "步步高升", "云开雾散", "不偏不倚", "光与影的交织", "碌碌无为", "捉襟见肘", "临渊羡鱼"]
+
+[[luck.messages]]
+messages = ["龙马精神", "一路顺风", "阳光普照", "相安无事", "乌云遮日", "日子无趣", "骑驴找驴", "鱼龙混杂"]
+
+[[luck.messages]]
+messages = ["鸿运当头", "一路平安", "破茧成蝶", "毫无波澜", "风雨同舟", "无所作为", "惹火烧身", "难兄难弟"]
+
+[[luck.messages]]
+messages = ["金榜题名", "顺风顺水", "月圆之夜", "不上不下", "山雨欲来", "踏步不前", "自食恶果", "食古不化"]
+
+[[luck.messages]]
+messages = ["青云直上", "吉祥如意", "花开富贵", "不冷不热", "风起云涌", "梦想遥远", "执迷不悟", "落花无言"]
+
+[[luck.messages]]
+messages = ["笑逐颜开", "如意吉祥", "阳光灿烂", "不显山不露水", "风云变幻", "苟延残喘", "抱头鼠窜", "鸡飞狗跳"]
+
+[[luck.messages]]
+messages = ["福如东海", "一帆风顺", "春暖花开", "不起眼", "苦海无边", "昙花一现", "东窗事发", "狗急跳墙"]
+
+[[luck.messages]]
+messages = [
+    "如行云流水，事事顺心，好运连连，一帆风顺至极。",
+    "如日中天，万事顺利，一切都在你的掌控之中。",
+    "阳光明媚，微风拂面，一切都在朝着有利的方向发展。",
+    "和煦的阳光温暖大地，前行的道路平坦明亮。",
+    "阳光开始洒落，万物明朗，但仍有些许阻碍。",
+    "天空开始放晴，但路上仍有积水，需要留心。",
+    "如同在细雨中行走，前方能见度低，需要小心翼翼。",
+    "世界似乎被乌云遮盖，每一步都充满了挑战。",
+]
+
+[[luck.messages]]
+messages = [
+    "今天你将会遇到意外的惊喜，做任何事都能顺利完成。",
+    "好运连连，努力会带来加倍的回报，想要的事很可能会实现。",
+    "今天的运势不错，适合尝试新事物，小心行事便无大碍。",
+    "一切都保持平稳，没有大的波动，放轻松享受日常生活吧。",
+    "有些小麻烦，保持耐心和乐观，事情很快就会好转。",
+    "今天可能会遇到一些挑战，但只要坚持，总会找到解决办法。",
+    "注意避免冲动行事，谨慎应对，才能减少不必要的麻烦。",
+    "今天要多加小心，避免做重要决策，耐心等待，坏运气终会过去。",
+]
+
+[[luck.colors]]
+colors = "鸨色#f7acbc"
+
+[[luck.colors]]
+colors = "赤白橡#deab8a"
+
+[[luck.colors]]
+colors = "油色#817936"
+
+[[luck.colors]]
+colors = "绀桔梗#444693"
+
+[[luck.colors]]
+colors = "踯躅色#ef5b9c"
+
+[[luck.colors]]
+colors = "肌色#fedcbd"
+
+[[luck.colors]]
+colors = "伽罗色#7f7522"
+
+[[luck.colors]]
+colors = "花色#2b4490"
+
+[[luck.colors]]
+colors = "桜色#feeeed"
+
+[[luck.colors]]
+colors = "橙色#f47920"
+
+[[luck.colors]]
+colors = "青丹#80752c"
+
+[[luck.colors]]
+colors = "瑠璃色#2a5caa"
+
+[[luck.colors]]
+colors = "蔷薇色#f05b72"
+
+[[luck.colors]]
+colors = "灰茶#905a3d"
+
+[[luck.colors]]
+colors = "莺色#87843b"
+
+[[luck.colors]]
+colors = "琉璃绀#224b8f"
+
+[[luck.colors]]
+colors = "韩红#f15b6c"
+
+[[luck.colors]]
+colors = "茶色#8f4b2e"
+
+[[luck.colors]]
+colors = "利久色#726930"
+
+[[luck.colors]]
+colors = "绀色#003a6c"
+
+[[luck.colors]]
+colors = "珊瑚色#f8aba6"
+
+[[luck.colors]]
+colors = "桦茶色#87481f"
+
+[[luck.colors]]
+colors = "媚茶#454926"
+
+[[luck.colors]]
+colors = "青蓝#102b6a"
+
+[[luck.colors]]
+colors = "红梅色#f69c9f"
+
+[[luck.colors]]
+colors = "枯茶#5f3c23"
+
+[[luck.colors]]
+colors = "蓝海松茶#2e3a1f"
+
+[[luck.colors]]
+colors = "杜若色#426ab3"
+
+[[luck.colors]]
+colors = "桃色#f58f98"
+
+[[luck.colors]]
+colors = "焦茶#6b473c"
+
+[[luck.colors]]
+colors = "青钝#4d4f36"
+
+[[luck.colors]]
+colors = "胜色#46485f"
+
+[[luck.colors]]
+colors = "薄柿#ca8687"
+
+[[luck.colors]]
+colors = "柑子色#faa755"
+
+[[luck.colors]]
+colors = "抹茶色#b7ba6b"
+
+[[luck.colors]]
+colors = "群青色#4e72b8"
+
+[[luck.colors]]
+colors = "薄红梅#f391a9"
+
+[[luck.colors]]
+colors = "杏色#fab27b"
+
+[[luck.colors]]
+colors = "黄緑#b2d235"
+
+[[luck.colors]]
+colors = "铁绀#181d4b"
+
+[[luck.colors]]
+colors = "曙色#bd6758"
+
+[[luck.colors]]
+colors = "蜜柑色#f58220"
+
+[[luck.colors]]
+colors = "苔色#5c7a29"
+
+[[luck.colors]]
+colors = "蓝铁#1a2933"
+
+[[luck.colors]]
+colors = "红色#d71345"
+
+[[luck.colors]]
+colors = "褐色#843900"
+
+[[luck.colors]]
+colors = "若草色#bed742"
+
+[[luck.colors]]
+colors = "青褐#121a2a"
+
+[[luck.colors]]
+colors = "赤丹#d64f44"
+
+[[luck.colors]]
+colors = "路考茶#905d1d"
+
+[[luck.colors]]
+colors = "若緑#7fb80e"
+
+[[luck.colors]]
+colors = "褐返#0c212b"
+
+[[luck.colors]]
+colors = "红赤#d93a49"
+
+[[luck.colors]]
+colors = "饴色#8a5d19"
+
+[[luck.colors]]
+colors = "萌黄#a3cf62"
+
+[[luck.colors]]
+colors = "藤纳戸#6a6da9"
+
+[[luck.colors]]
+colors = "臙脂色#b3424a"
+
+[[luck.colors]]
+colors = "丁子色#8c531b"
+
+[[luck.colors]]
+colors = "苗色#769149"
+
+[[luck.colors]]
+colors = "桔梗色#585eaa"
+
+[[luck.colors]]
+colors = "真赭#c76968"
+
+[[luck.colors]]
+colors = "丁子茶#826858"
+
+[[luck.colors]]
+colors = "草色#6d8346"
+
+[[luck.colors]]
+colors = "绀蓝#494e8f"
+
+[[luck.colors]]
+colors = "今様色#bb505d"
+
+[[luck.colors]]
+colors = "黄栌#64492b"
+
+[[luck.colors]]
+colors = "柳色#78a355"
+
+[[luck.colors]]
+colors = "藤色#afb4db"
+
+[[luck.colors]]
+colors = "梅染#987165"
+
+[[luck.colors]]
+colors = "土器色#ae6642"
+
+[[luck.colors]]
+colors = "若草色#abc88b"
+
+[[luck.colors]]
+colors = "藤紫#9b95c9"
+
+[[luck.colors]]
+colors = "退红色#ac6767"
+
+[[luck.colors]]
+colors = "黄枯茶#56452d"
+
+[[luck.colors]]
+colors = "松叶色#74905d"
+
+[[luck.colors]]
+colors = "青紫#6950a1"
+
+[[luck.colors]]
+colors = "苏芳#973c3f"
+
+[[luck.colors]]
+colors = "狐色#96582a"
+
+[[luck.colors]]
+colors = "白緑#cde6c7"
+
+[[luck.colors]]
+colors = "菫色#6f60aa"
+
+[[luck.colors]]
+colors = "茜色#b22c46"
+
+[[luck.colors]]
+colors = "黄橡#705628"
+
+[[luck.colors]]
+colors = "薄緑#1d953f"
+
+[[luck.colors]]
+colors = "鸠羽色#867892"
+
+[[luck.colors]]
+colors = "红#a7324a"
+
+[[luck.colors]]
+colors = "银煤竹#4a3113"
+
+[[luck.colors]]
+colors = "千草色#77ac98"
+
+[[luck.colors]]
+colors = "薄色#918597"
+
+[[luck.colors]]
+colors = "银朱#aa363d"
+
+[[luck.colors]]
+colors = "涅色#412f1f"
+
+[[luck.colors]]
+colors = "青緑#007d65"
+
+[[luck.colors]]
+colors = "薄鼠#6f6d85"
+
+[[luck.colors]]
+colors = "赤#ed1941"
+
+[[luck.colors]]
+colors = "胡桃色#845538"
+
+[[luck.colors]]
+colors = "浅緑#84bf96"
+
+[[luck.colors]]
+colors = "鸠羽鼠#594c6d"
+
+[[luck.colors]]
+colors = "朱色#f26522"
+
+[[luck.colors]]
+colors = "香色#8e7437"
+
+[[luck.colors]]
+colors = "緑#45b97c"
+
+[[luck.colors]]
+colors = "菖蒲色#694d9f"
+
+[[luck.colors]]
+colors = "洗朱#d2553d"
+
+[[luck.colors]]
+colors = "国防色#69541b"
+
+[[luck.colors]]
+colors = "草色#225a1f"
+
+[[luck.colors]]
+colors = "江戸紫#6f599c"
+
+[[luck.colors]]
+colors = "红桦色#b4534b"
+
+[[luck.colors]]
+colors = "练色#d5c59f"
+
+[[luck.colors]]
+colors = "木贼色#367459"
+
+[[luck.colors]]
+colors = "紫#8552a1"
+
+[[luck.colors]]
+colors = "红绯#ef4136"
+
+[[luck.colors]]
+colors = "肉色#cd9a5b"
+
+[[luck.colors]]
+colors = "常盘色#007947"
+
+[[luck.colors]]
+colors = "灭紫#543044"
+
+[[luck.colors]]
+colors = "桦色#c63c26"
+
+[[luck.colors]]
+colors = "人色#cd9a5b"
+
+[[luck.colors]]
+colors = "緑青色#40835e"
+
+[[luck.colors]]
+colors = "葡萄鼠#63434f"
+
+[[luck.colors]]
+colors = "铅丹色#f3715c"
+
+[[luck.colors]]
+colors = "土色#b36d41"
+
+[[luck.colors]]
+colors = "千歳緑#2b6447"
+
+[[luck.colors]]
+colors = "古代紫#7d5886"
+
+[[luck.colors]]
+colors = "赭#a7573b"
+
+[[luck.colors]]
+colors = "小麦色#df9464"
+
+[[luck.colors]]
+colors = "深緑#005831"
+
+[[luck.colors]]
+colors = "暗红#401c44"
+
+[[luck.colors]]
+colors = "绯色#aa2116"
+
+[[luck.colors]]
+colors = "琥珀色#b76f40"
+
+[[luck.colors]]
+colors = "萌葱色#006c54"
+
+[[luck.colors]]
+colors = "葡萄#472d56"
+
+[[luck.colors]]
+colors = "丹#b64533"
+
+[[luck.colors]]
+colors = "木兰色#ad8b3d"
+
+[[luck.colors]]
+colors = "青白橡#375830"
+
+[[luck.colors]]
+colors = "茄子绀#45224a"
+
+[[luck.colors]]
+colors = "土#b54334"
+
+[[luck.colors]]
+colors = "栀子色#dea32c"
+
+[[luck.colors]]
+colors = "革色#274d3d"
+
+[[luck.colors]]
+colors = "紫绀#411445"
+
+[[luck.colors]]
+colors = "焦香#853f04"
+
+[[luck.colors]]
+colors = "朽叶#d1923f"
+
+[[luck.colors]]
+colors = "麹尘#375830"
+
+[[luck.colors]]
+colors = "浓色#4b2f3d"
+
+[[luck.colors]]
+colors = "真红#840228"
+
+[[luck.colors]]
+colors = "萱草色#c88400"
+
+[[luck.colors]]
+colors = "仙斎茶#27342b"
+
+[[luck.colors]]
+colors = "二蓝#402e4c"
+
+[[luck.colors]]
+colors = "绯#7a1723"
+
+[[luck.colors]]
+colors = "黄金#c37e00"
+
+[[luck.colors]]
+colors = "若竹色#65c294"
+
+[[luck.colors]]
+colors = "菖蒲色#c77eb5"
+
+[[luck.colors]]
+colors = "红海老茶#a03939"
+
+[[luck.colors]]
+colors = "金色#c37e00"
+
+[[luck.colors]]
+colors = "青磁色#73b9a2"
+
+[[luck.colors]]
+colors = "牡丹色#ea66a6"
+
+[[luck.colors]]
+colors = "浅苏芳#8a2e3b"
+
+[[luck.colors]]
+colors = "金茶#e0861a"
+
+[[luck.colors]]
+colors = "青竹色#72baa7"
+
+[[luck.colors]]
+colors = "赤紫#f173ac"
+
+[[luck.colors]]
+colors = "鸢色#8e453f"
+
+[[luck.colors]]
+colors = "卵色#ffce7b"
+
+[[luck.colors]]
+colors = "铁色#005344"
+
+[[luck.colors]]
+colors = "白#fffffb"
+
+[[luck.colors]]
+colors = "小豆色#8f4b4a"
+
+[[luck.colors]]
+colors = "山吹色#fcaf17"
+
+[[luck.colors]]
+colors = "锖鼠#122e29"
+
+[[luck.colors]]
+colors = "胡粉色#fffef9"
+
+[[luck.colors]]
+colors = "弁柄色#892f1b"
+
+[[luck.colors]]
+colors = "黄土色#ba8448"
+
+[[luck.colors]]
+colors = "铁御纳戸#293047"
+
+[[luck.colors]]
+colors = "生成色#f6f5ec"
+
+[[luck.colors]]
+colors = "栗梅#6b2c25"
+
+[[luck.colors]]
+colors = "朽叶色#896a45"
+
+[[luck.colors]]
+colors = "青緑#00ae9d"
+
+[[luck.colors]]
+colors = "灰白#d9d6c3"
+
+[[luck.colors]]
+colors = "海老茶#733a31"
+
+[[luck.colors]]
+colors = "空五倍子色#76624c"
+
+[[luck.colors]]
+colors = "锖浅葱#508a88"
+
+[[luck.colors]]
+colors = "石竹色#d1c7b7"
+
+[[luck.colors]]
+colors = "深绯#54211d"
+
+[[luck.colors]]
+colors = "莺茶#6d5826"
+
+[[luck.colors]]
+colors = "水浅葱#70a19f"
+
+[[luck.colors]]
+colors = "象牙色#f2eada"
+
+[[luck.colors]]
+colors = "赤铜色#78331e"
+
+[[luck.colors]]
+colors = "向日葵色#ffc20e"
+
+[[luck.colors]]
+colors = "新桥色#50b7c1"
+
+[[luck.colors]]
+colors = "乳白色#d3d7d4"
+
+[[luck.colors]]
+colors = "赤褐色#53261f"
+
+[[luck.colors]]
+colors = "郁金色#fdb933"
+
+[[luck.colors]]
+colors = "浅葱色#00a6ac"
+
+[[luck.colors]]
+colors = "薄钝#999d9c"
+
+[[luck.colors]]
+colors = "金赤#f15a22"
+
+[[luck.colors]]
+colors = "砂色#d3c6a6"
+
+[[luck.colors]]
+colors = "白群#78cdd1"
+
+[[luck.colors]]
+colors = "银鼠#a1a3a6"
+
+[[luck.colors]]
+colors = "赤茶#b4533c"
+
+[[luck.colors]]
+colors = "芥子色#c7a252"
+
+[[luck.colors]]
+colors = "御纳戸色#008792"
+
+[[luck.colors]]
+colors = "茶鼠#9d9087"
+
+[[luck.colors]]
+colors = "赤锖色#84331f"
+
+[[luck.colors]]
+colors = "淡黄#dec674"
+
+[[luck.colors]]
+colors = "瓮覗#94d6da"
+
+[[luck.colors]]
+colors = "鼠色#8a8c8e"
+
+[[luck.colors]]
+colors = "黄丹#f47a55"
+
+[[luck.colors]]
+colors = "亜麻色#b69968"
+
+[[luck.colors]]
+colors = "水色#afdfe4"
+
+[[luck.colors]]
+colors = "薄墨色#74787c"
+
+[[luck.colors]]
+colors = "赤橙#f15a22"
+
+[[luck.colors]]
+colors = "枯色#c1a173"
+
+[[luck.colors]]
+colors = "蓝鼠#5e7c85"
+
+[[luck.colors]]
+colors = "利休鼠#7c8577"
+
+[[luck.colors]]
+colors = "柿色#f3704b"
+
+[[luck.colors]]
+colors = "鸟子色#dbce8f"
+
+[[luck.colors]]
+colors = "秘色#76becc"
+
+[[luck.colors]]
+colors = "铅色#72777b"
+
+[[luck.colors]]
+colors = "肉桂色#da765b"
+
+[[luck.colors]]
+colors = "黄色#ffd400"
+
+[[luck.colors]]
+colors = "空色#90d7ec"
+
+[[luck.colors]]
+colors = "灰色#77787b"
+
+[[luck.colors]]
+colors = "桦色#c85d44"
+
+[[luck.colors]]
+colors = "蒲公英色#ffd400"
+
+[[luck.colors]]
+colors = "青#009ad6"
+
+[[luck.colors]]
+colors = "钝色#4f5555"
+
+[[luck.colors]]
+colors = "炼瓦色#ae5039"
+
+[[luck.colors]]
+colors = "中黄#ffe600"
+
+[[luck.colors]]
+colors = "蓝色#145b7d"
+
+[[luck.colors]]
+colors = "煤竹色#6c4c49"
+
+[[luck.colors]]
+colors = "锖色#6a3427"
+
+[[luck.colors]]
+colors = "刈安色#f0dc70"
+
+[[luck.colors]]
+colors = "浓蓝#11264f"
+
+[[luck.colors]]
+colors = "黒茶#563624"
+
+[[luck.colors]]
+colors = "桧皮色#8f4b38"
+
+[[luck.colors]]
+colors = "黄檗色#fcf16e"
+
+[[luck.colors]]
+colors = "勿忘草色#7bbfea"
+
+[[luck.colors]]
+colors = "黒橡#3e4145"
+
+[[luck.colors]]
+colors = "栗色#8e3e1f"
+
+[[luck.colors]]
+colors = "緑黄色#decb00"
+
+[[luck.colors]]
+colors = "露草色#33a3dc"
+
+[[luck.colors]]
+colors = "浓鼠#3c3645"
+
+[[luck.colors]]
+colors = "黄赤#f36c21"
+
+[[luck.colors]]
+colors = "鶸色#cbc547"
+
+[[luck.colors]]
+colors = "缥色#228fbd"
+
+[[luck.colors]]
+colors = "墨#464547"
+
+[[luck.colors]]
+colors = "代赭#b4532a"
+
+[[luck.colors]]
+colors = "海松色#6e6b41"
+
+[[luck.colors]]
+colors = "浅缥#2468a2"
+
+[[luck.colors]]
+colors = "黒#130c0e"
+
+[[luck.colors]]
+colors = "骆驼色#b7704f"
+
+[[luck.colors]]
+colors = "鶸茶#596032"
+
+[[luck.colors]]
+colors = "薄缥#2570a1"
+
+[[luck.colors]]
+colors = "黒铁#281f1d"
+
+[[luck.colors]]
+colors = "黄茶#de773f"
+
+[[luck.colors]]
+colors = "山鸠色#525f42"
+
+[[luck.colors]]
+colors = "薄花色#2585a6"
+
+[[luck.colors]]
+colors = "蝋色#2f271d"
+
+[[luck.colors]]
+colors = "洗柿#c99979"
+
+[[luck.colors]]
+colors = "生壁色#5f5d46"
+
+[[luck.colors]]
+colors = "绀青#1b315e"
+
+[[luck.colors]]
+colors = "紫黒#1d1626"
